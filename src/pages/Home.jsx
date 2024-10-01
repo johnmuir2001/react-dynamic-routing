@@ -6,8 +6,8 @@ const Home = () => {
     return (
         <div className="allFilms">
             {/* Use the link to navigate to the page using the films ID as the destination url */}
-            {films.map((film, i) => {
-                return <Link key={i} to={`/${film}`} >{film}</Link>
+            {films.map((film, index) => {
+                return <Link key={index} to={`/${film}`} >{film}</Link>
             })}
         </div>
     )
