@@ -23,7 +23,7 @@ const App = () => {
         <Route path="/about" element={<About />} ></Route>
         <Route path="/contact" element={<Contact />} ></Route>
         {/* The dynamic route has a parameter as an unknown value but will be used in Film component */}
-        <Route path="/:productId" element={<Film />} ></Route>
+        <Route path="/:filmName" element={<Film />} ></Route>
       </Routes>
 
       <footer>
